@@ -1,6 +1,13 @@
+/* ./src/main.css */
 body {
   margin: 0 auto;
   padding: 0 20px;
   max-width: 800px;
-  background: #ccc;
+  background: skyblue;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
 }
