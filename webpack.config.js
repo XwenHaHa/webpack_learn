@@ -15,8 +15,8 @@ const config = {
     rules: [
       //转换规则
       {
-        test: /\.css$/, // 匹配所有css文件
-        use: ["style-loader", "css-loader", "postcss-loader"], // use:对应的loader名称
+        test: /\.(s[ac]|c)ss$/i, // 匹配所有sass/scss/css文件
+        use: ["style-loader", "css-loader", "postcss-loader", "sass-loader"], // use:对应的loader名称
       },
     ],
   },
